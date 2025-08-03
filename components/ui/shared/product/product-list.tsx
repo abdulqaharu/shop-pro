@@ -1,4 +1,3 @@
-import { log } from "console";
 import ProductCard from "./product-card";
 import { Product } from "@/types";
 

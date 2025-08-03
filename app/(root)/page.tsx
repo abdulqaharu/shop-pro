@@ -1,12 +1,10 @@
 import ProductList from "@/components/ui/shared/product/product-list";
 import { getLatestProducts } from "@/lib/actions/product.actions";
-import { Product } from "@/types";
 import React from "react";
 
-type Props = {};
 // const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms))
 
-export default async function page({}: Props) {
+export default async function page() {
   const latestProducts = await getLatestProducts();
   console.log("latest products", latestProducts);
 
