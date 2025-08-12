@@ -6,7 +6,6 @@ import React from "react";
 
 export default async function page() {
   const latestProducts = await getLatestProducts();
-  console.log("latest products", latestProducts);
 
   return (
     <div>

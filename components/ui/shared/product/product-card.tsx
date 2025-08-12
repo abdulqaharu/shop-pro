@@ -5,7 +5,6 @@ import ProductPrice from "./product-price";
 import { Product } from "@/types";
 
 const ProductCard = ({ product }: { product: Product }) => {
-  console.log('type of', product.price);
 
   return (
     <Card className="w-full max-w-sm">
